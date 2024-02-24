@@ -1,0 +1,4 @@
+version: '2.2'
+services:
+    sharelatex:
+        image: fleothaud/floverleaf:TeX3R
