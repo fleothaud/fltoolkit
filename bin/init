@@ -42,6 +42,7 @@ function set_up_config_files() {
   cp "$TOOLKIT_ROOT/lib/config-seed/overleaf.rc" "$TOOLKIT_ROOT/config/"
   cp "$TOOLKIT_ROOT/lib/config-seed/variables.env" "$TOOLKIT_ROOT/config/"
   cp "$TOOLKIT_ROOT/lib/config-seed/version" "$TOOLKIT_ROOT/config/"
+  cp "$TOOLKIT_ROOT/lib/config-seed/docker-compose.override.yml" "$TOOLKIT_ROOT/config/"
 }
 
 function set_up_tls_proxy() {
